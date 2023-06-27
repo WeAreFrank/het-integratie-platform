@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.1.0](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.0.0...v1.1.0) (2023-06-27)
+
+
+### 🍕 Features
+
+* remove default configuration ([5298faf](https://github.com/WeAreFrank/het-integratie-platform/commit/5298faf27f674f8d5eeedd3d9581a44b8af36cf9))
+
 ## 1.0.0 (2023-06-26)
 
 
