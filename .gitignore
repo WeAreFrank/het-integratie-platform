@@ -1,1 +1,4 @@
 FrankConfig.xsd
+*.iml
+.idea/
+.env

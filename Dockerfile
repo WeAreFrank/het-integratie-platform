@@ -1,9 +1,5 @@
 FROM nexus.frankframework.org/frank-framework:7.9-SNAPSHOT
 
-# TempFix TODO: Move this to the credentialprovider.properties
-ENV credentialFactory.class=nl.nn.credentialprovider.PropertyFileCredentialFactory
-ENV credentialFactory.map.properties=/opt/frank/resources/credentials.properties
-
 # Copy dependencies
 COPY --chown=tomcat lib/server/ /usr/local/tomcat/lib/
 COPY --chown=tomcat lib/webapp/ /usr/local/tomcat/webapps/ROOT/WEB-INF/lib/
