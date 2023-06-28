@@ -1,18 +1,18 @@
 <Context>
     <Resource
-        name="jdbc/het integratie platform"
-        type="org.h2.jdbcx.JdbcDataSource"
-        factory="org.apache.naming.factory.BeanFactory"
-        URL="jdbc:h2:/opt/frank/h2/webformulierenverwerker"
+            name="jdbc/het integratie platform"
+            type="org.h2.jdbcx.JdbcDataSource"
+            factory="org.apache.naming.factory.BeanFactory"
+            URL="jdbc:h2:/opt/frank/h2/webformulierenverwerker"
     />
 
-    <Resource name="jdbc/het integratie platform-postgresql" auth="Container"
-              type="javax.sql.DataSource"
-              driverClassName="org.postgresql.Driver"
-              url="jdbc:postgresql://${jdbc.hostname}:5432/${jdbc.database}"
-              username="${jdbc/username}"
-              password="${jdbc/password}"
-              maxTotal="10"
-              maxWaitMillis="5000"
+    <Resource
+            name="jdbc/het integratie platform-postgresql"
+            auth="Container"
+            factory="org.apache.naming.factory.BeanFactory"
+            type="org.postgresql.xa.PGXADataSource"
+            url="jdbc:postgresql://${jdbc.hostname}:5432/${jdbc.database}"
+            username="${jdbc/username}"
+            password="${jdbc/password}"
     />
 </Context>
