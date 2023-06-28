@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.1.3](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.1.2...v1.1.3) (2023-06-28)
+
+
+### 🐛 Bug Fixes
+
+* restore Ladybug default values for truncating messages ([f48c9fc](https://github.com/WeAreFrank/het-integratie-platform/commit/f48c9fcaddfb8f14eb85bfb704a8d056a994c822))
+
 ## [1.1.2](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.1.1...v1.1.2) (2023-06-28)
 
 
