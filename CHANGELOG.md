@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.1.1](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.1.0...v1.1.1) (2023-06-28)
+
+
+### 🐛 Bug Fixes
+
+* enable XA ([adc2f80](https://github.com/WeAreFrank/het-integratie-platform/commit/adc2f8006ca7622413b469ee39851bbd022b0a52))
+
 ## [1.1.0](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.0.0...v1.1.0) (2023-06-27)
 
 
