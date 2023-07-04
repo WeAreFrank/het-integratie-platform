@@ -1,4 +1,7 @@
 FrankConfig.xsd
 *.iml
 .idea/
+
+# .env should be made in the environment.
+# It is an additional file to StageSpecifics_LOC to keep it more generic.
 .env
