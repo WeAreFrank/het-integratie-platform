@@ -1,5 +1,22 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.2.0](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.1.3...v1.2.0) (2023-07-07)
+
+
+### 🍕 Features
+
+* enable Ladybug in P with more storage ([4df33bd](https://github.com/WeAreFrank/het-integratie-platform/commit/4df33bd9be2fc0c2605b4eebe8fe332e7ac56741))
+
+
+### 🐛 Bug Fixes
+
+* use zaakbrug-base ([db70377](https://github.com/WeAreFrank/het-integratie-platform/commit/db70377abba19ee4ac4a997bb0e32662647c819b))
+
+
+### 🧑‍💻 Code Refactoring
+
+* parameterize docker compose and add update script ([4b8509e](https://github.com/WeAreFrank/het-integratie-platform/commit/4b8509edf95e3fefd8c2f7cb784f042245905a5d))
+
 ## [1.1.3](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.1.2...v1.1.3) (2023-06-28)
 
 
