@@ -14,6 +14,7 @@ COPY --chown=tomcat classes/ /opt/frank/resources/
 COPY --chown=tomcat java /tmp/java
 RUN javac \
       /tmp/java/nl/nn/adapterframework/http/HttpSenderBase.java \
+      /tmp/java/nl/nn/adapterframework/http/Parameter.java \
       -classpath "/usr/local/tomcat/webapps/ROOT/WEB-INF/lib/*:/usr/local/tomcat/lib/*" \
       -verbose -d /usr/local/tomcat/webapps/ROOT/WEB-INF/classes
 RUN rm -rf /tmp/java
