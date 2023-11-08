@@ -1,5 +1,17 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.2.2](https://github.com/wearefrank/het-integratie-platform/compare/v1.2.1...v1.2.2) (2023-11-08)
+
+
+### 🐛 Bug Fixes
+
+* add missing import ([c45d002](https://github.com/wearefrank/het-integratie-platform/commit/c45d0022022467e34e172f3dcf6a2ed320da893c))
+
+
+### 🧑‍💻 Code Refactoring
+
+* Parameter.java custom code ([288f195](https://github.com/wearefrank/het-integratie-platform/commit/288f1954fd90798c453fac4fea85b3f1804698f5))
+
 ## [1.2.1](https://github.com/wearefrank/het-integratie-platform/compare/v1.2.0...v1.2.1) (2023-11-08)
 
 
