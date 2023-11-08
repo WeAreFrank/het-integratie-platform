@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.2.1](https://github.com/wearefrank/het-integratie-platform/compare/v1.2.0...v1.2.1) (2023-11-08)
+
+
+### 🐛 Bug Fixes
+
+* incorrect classpath ([09edb17](https://github.com/wearefrank/het-integratie-platform/commit/09edb1789471c7a9276572db2a5be7f9b997a125))
+
 ## [1.2.0](https://github.com/WeAreFrank/het-integratie-platform/compare/v1.1.3...v1.2.0) (2023-07-07)
 
 
