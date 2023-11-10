@@ -1,5 +1,17 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.0](https://github.com/wearefrank/het-integratie-platform/compare/v1.2.2...v1.3.0) (2023-11-10)
+
+
+### 🍕 Features
+
+* backport custom code ([098277b](https://github.com/wearefrank/het-integratie-platform/commit/098277b1c583f7b8c4d5edada1b56fa6a7115321))
+
+
+### 🧑‍💻 Code Refactoring
+
+* adjust version specification ([f9c3f9b](https://github.com/wearefrank/het-integratie-platform/commit/f9c3f9ba2183658c6ee701f37218766b0ad4b0d0))
+
 ## [1.2.2](https://github.com/wearefrank/het-integratie-platform/compare/v1.2.1...v1.2.2) (2023-11-08)
 
 
