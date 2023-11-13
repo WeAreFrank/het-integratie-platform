@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.2](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.1...v1.3.2) (2023-11-13)
+
+
+### 🤖 Build System
+
+* add files volume ([ee209e0](https://github.com/wearefrank/het-integratie-platform/commit/ee209e0d87394d1bd18d7d952072617df6196320))
+
 ## [1.3.1](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.0...v1.3.1) (2023-11-13)
 
 
