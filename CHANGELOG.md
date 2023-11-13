@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.1](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.0...v1.3.1) (2023-11-13)
+
+
+### 🧑‍💻 Code Refactoring
+
+* adjust Ladybug columns for MZN addition ([5b6a3a6](https://github.com/wearefrank/het-integratie-platform/commit/5b6a3a6542ddd8a806c5cb347c29228dcd63d9bf))
+
 ## [1.3.0](https://github.com/wearefrank/het-integratie-platform/compare/v1.2.2...v1.3.0) (2023-11-10)
 
 
