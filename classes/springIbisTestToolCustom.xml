@@ -10,6 +10,7 @@
     <bean name="metadataExtractor" class="nl.nn.testtool.MetadataExtractor">
         <property name="extraMetadataFieldExtractors">
             <list>
+                <!-- WebformulierenVerwerker -->
                 <bean class="nl.nn.testtool.metadata.StatusMetadataFieldExtractor"/>
                 <bean class="nl.nn.testtool.metadata.XpathMetadataFieldExtractor">
                     <property name="name" value="soapAction"/>
@@ -22,6 +23,26 @@
                     <property name="extractFrom" value="last"/>
                     <property name="xpath" value="*[local-name()='Envelope']/*[local-name()='Body']" />
                 </bean>
+
+                <!-- MijnZaakNotificaties -->
+                <bean class="nl.nn.testtool.metadata.SessionKeyMetadataFieldExtractor">
+                    <property name="name" value="Zaaktype" />
+                    <property name="sessionKey" value="zaakType" />
+                    <!-- <property name="regex" value="&lt;identificatie>(.*)&lt;\/identificatie>" /> -->
+                </bean>
+                <bean class="nl.nn.testtool.metadata.SessionKeyMetadataFieldExtractor">
+                    <property name="name" value="Identificatie" />
+                    <property name="sessionKey" value="identificatie" />
+                </bean>
+                <bean class="nl.nn.testtool.metadata.SessionKeyMetadataFieldExtractor">
+                    <property name="name" value="Toelichting" />
+                    <property name="sessionKey" value="storeStatusResponse" />
+                    <property name="regex" value="&lt;toelichting>(.*)&lt;\/toelichting>|&lt;statustoelichting>(.*)&lt;\/statustoelichting>" />
+                </bean>
+                <bean class="nl.nn.testtool.metadata.SessionKeyMetadataFieldExtractor">
+                    <property name="name" value="Reden Afwijzing" />
+                    <property name="sessionKey" value="rejectionReason" />
+                </bean>
             </list>
         </property>
     </bean>
@@ -32,10 +53,14 @@
                 <value>storageId</value>
                 <value>endTime</value>
                 <value>duration</value>
+                <value>correlationId</value>
                 <value>name</value>
                 <value>soapAction</value>
-                <value>correlationId</value>
                 <value>corsaResponse</value>
+                <value>Zaaktype</value>
+                <value>Identificatie</value>
+                <value>Toelichting</value>
+                <value>Reden Afwijzing</value>
                 <value>status</value>
                 <value>numberOfCheckpoints</value>
                 <value>estimatedMemoryUsage</value>
