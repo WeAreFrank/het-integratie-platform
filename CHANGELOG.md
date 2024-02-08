@@ -1,5 +1,17 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.3](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.2...v1.3.3) (2024-02-08)
+
+
+### 🧑‍💻 Code Refactoring
+
+* add ibistesttool.FreeSpaceMinimum ([46d2203](https://github.com/wearefrank/het-integratie-platform/commit/46d220307afb088e6e38f4dba9c2d8d40f757a0f))
+
+
+### 🔁 Continuous Integration
+
+* update node ([a3844ee](https://github.com/wearefrank/het-integratie-platform/commit/a3844ee0f8017bf1291db46e2d1dd7ee818b7aa2))
+
 ## [1.3.2](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.1...v1.3.2) (2023-11-13)
 
 
