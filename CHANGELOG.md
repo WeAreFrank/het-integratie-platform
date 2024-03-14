@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.4](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.3...v1.3.4) (2024-03-14)
+
+
+### 🐛 Bug Fixes
+
+* prevent ladybug overload issue ([33add19](https://github.com/wearefrank/het-integratie-platform/commit/33add195493d5584a789fda37cb70be641244111))
+
 ## [1.3.3](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.2...v1.3.3) (2024-02-08)
 
 
