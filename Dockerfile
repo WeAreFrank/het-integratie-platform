@@ -14,6 +14,7 @@ COPY --chown=tomcat classes/ /opt/frank/resources/
 # Compile custom class, this should be changed to a buildstep in the future
 COPY --chown=tomcat java /tmp/java
 RUN javac \
+      /tmp/java/nextapp/echo2/webcontainer/syncpeer/TextComponentPeer.java \
       /tmp/java/nl/nn/adapterframework/http/HttpSenderBase.java \
       /tmp/java/nl/nn/adapterframework/parameters/Parameter.java \
       -classpath "/usr/local/tomcat/webapps/ROOT/WEB-INF/lib/*:/usr/local/tomcat/lib/*" \
