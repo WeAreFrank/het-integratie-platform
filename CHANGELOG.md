@@ -1,5 +1,22 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.5](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.4...v1.3.5) (2024-04-16)
+
+
+### 🐛 Bug Fixes
+
+* remove files from dockerfile ([3651e19](https://github.com/wearefrank/het-integratie-platform/commit/3651e19697a911ba28e321a7af6a7cca1022267a))
+
+
+### 🧑‍💻 Code Refactoring
+
+* remove custom code that is now integrated ([35ad112](https://github.com/wearefrank/het-integratie-platform/commit/35ad112437594a42ddfc33e598353018eb38e562))
+
+
+### 🤖 Build System
+
+* update F!F version ([2631d78](https://github.com/wearefrank/het-integratie-platform/commit/2631d78d66670e94f572b26911c0afa2944aed5f))
+
 ## [1.3.4](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.3...v1.3.4) (2024-03-14)
 
 
