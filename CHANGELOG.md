@@ -1,5 +1,18 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.7](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.6...v1.3.7) (2024-04-18)
+
+
+### 🐛 Bug Fixes
+
+* undo incorrect version ([785bf4d](https://github.com/wearefrank/het-integratie-platform/commit/785bf4d6355a88ea8adf3d13368318898a8e7141))
+
+
+### ⏩ Reverts
+
+* Revert "refactor: remove custom code that is now integrated" ([a1b912a](https://github.com/wearefrank/het-integratie-platform/commit/a1b912a6aeddf72d89e668c20aabd6344968d798))
+* Revert "fix: remove files from dockerfile" ([1866c1a](https://github.com/wearefrank/het-integratie-platform/commit/1866c1a938021438765d191160ef84e33e149a36))
+
 ## [1.3.6](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.5...v1.3.6) (2024-04-18)
 
 
