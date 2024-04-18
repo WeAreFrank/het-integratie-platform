@@ -1,5 +1,6 @@
 # Equal to Framework version: 7.9-20230622.190018
-FROM frankframework/frankframework:8.1.0-RC2-20240416.011135
+# FROM frankframework/frankframework:8.1.0-RC2-20240416.011135
+FROM wearefrank/zaakbrug-base:5357284526
 
 # Copy dependencies
 COPY --chown=tomcat lib/server/ /usr/local/tomcat/lib/
