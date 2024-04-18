@@ -1,5 +1,5 @@
 # Equal to Framework version: 7.9-20230622.190018
-FROM frankframework/frankframework:8.1.0-20240404.042328
+FROM frankframework/frankframework:8.1.0-RC2-20240416.011135
 
 # Copy dependencies
 COPY --chown=tomcat lib/server/ /usr/local/tomcat/lib/
