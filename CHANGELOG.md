@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.6](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.5...v1.3.6) (2024-04-18)
+
+
+### 🤖 Build System
+
+* change f!f version ([2430fb7](https://github.com/wearefrank/het-integratie-platform/commit/2430fb7708c359461f1f7a2f04b8fd76c7ee6c2b))
+
 ## [1.3.5](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.4...v1.3.5) (2024-04-16)
 
 
