@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.8](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.7...v1.3.8) (2024-04-19)
+
+
+### 🐛 Bug Fixes
+
+* previous update with ladybug datasource disabled ([33e6e43](https://github.com/wearefrank/het-integratie-platform/commit/33e6e435c8df66d1924a2e5af90645e81e696792))
+
 ## [1.3.7](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.6...v1.3.7) (2024-04-18)
 
 
