@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.9](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.8...v1.3.9) (2024-04-23)
+
+
+### 🐛 Bug Fixes
+
+* adjust jwt ([4638d8a](https://github.com/wearefrank/het-integratie-platform/commit/4638d8a6413959c65e5f4197c9238bae766ad7b7))
+
 ## [1.3.8](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.7...v1.3.8) (2024-04-19)
 
 
