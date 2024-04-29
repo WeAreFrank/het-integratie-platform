@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.10](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.9...v1.3.10) (2024-04-29)
+
+
+### 🤖 Build System
+
+* add custom code to new dockerfile ([f09899c](https://github.com/wearefrank/het-integratie-platform/commit/f09899cff7689b9820ded32495030ad036f28e4c))
+
 ## [1.3.9](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.8...v1.3.9) (2024-04-23)
 
 
