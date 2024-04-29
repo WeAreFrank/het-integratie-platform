@@ -1,6 +1,6 @@
-# Equal to Framework version: 7.9-20230622.190018
-FROM frankframework/frankframework:8.1.0-20240404.042328
-# FROM wearefrank/zaakbrug-base:5357284526
+ARG FF_VERSION=8.1.0-20240404.042328
+
+FROM frankframework/frankframework:${FF_VERSION} as ff-base
 
 # Copy dependencies
 COPY --chown=tomcat lib/server/ /usr/local/tomcat/lib/
@@ -11,6 +11,23 @@ COPY --chown=tomcat context.xml /usr/local/tomcat/conf/Catalina/localhost/ROOT.x
 
 # Copy Frank!
 COPY --chown=tomcat classes/ /opt/frank/resources/
+
+# Compile custom class
+FROM eclipse-temurin:17-jdk-jammy AS custom-code-builder
+
+# Copy dependencies
+COPY --from=ff-base /usr/local/tomcat/lib/ /usr/local/tomcat/lib/
+COPY --from=ff-base /usr/local/tomcat/webapps/ROOT /usr/local/tomcat/webapps/ROOT
+
+# Copy custom class
+COPY java /tmp/java
+RUN mkdir /tmp/classes && \
+    javac \
+    /tmp/java/nextapp/echo2/webcontainer/syncpeer/TextComponentPeer.java \
+    -classpath "/usr/local/tomcat/webapps/ROOT/WEB-INF/lib/*:/usr/local/tomcat/lib/*" \
+    -verbose -d /tmp/classes
+
+FROM ff-base
 
 # Compile custom class, this should be changed to a buildstep in the future
 # COPY --chown=tomcat java /tmp/java
