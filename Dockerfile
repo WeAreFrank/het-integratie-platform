@@ -39,5 +39,7 @@ FROM ff-base
 #       -verbose -d /usr/local/tomcat/webapps/ROOT/WEB-INF/classes
 # RUN rm -rf /tmp/java
 
+COPY --from=custom-code-builder --chown=tomcat /tmp/classes/ /usr/local/tomcat/webapps/ROOT/WEB-INF/classes
+
 HEALTHCHECK --interval=15s --timeout=5s --start-period=30s --retries=60 \
   CMD curl --fail --silent http://localhost:8080/iaf/api/server/health || (curl --silent http://localhost:8080/iaf/api/server/health && exit 1)
