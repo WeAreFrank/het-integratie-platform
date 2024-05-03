@@ -1,5 +1,12 @@
 [![conventional commits](https://img.shields.io/badge/conventional%20commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![semantic versioning](https://img.shields.io/badge/semantic%20versioning-2.0.0-green.svg)](https://semver.org)
 
+## [1.3.11](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.10...v1.3.11) (2024-05-03)
+
+
+### 🐛 Bug Fixes
+
+* add mising dockerfile copy line ([4dc7e43](https://github.com/wearefrank/het-integratie-platform/commit/4dc7e4332c2c46bb7a48b3b924f04e1aa60119f6))
+
 ## [1.3.10](https://github.com/wearefrank/het-integratie-platform/compare/v1.3.9...v1.3.10) (2024-04-29)
 
 
